@@ -1,12 +1,16 @@
 export default function loadHome() {
     const content = document.getElementById('content');
-
+    
     const headline = document.createElement('h1');
-    headline.textContent = 'Bem-vindo ao Restaurante Maravilhoso';
+    headline.textContent = 'Zizi Trattoria';
 
-    const copy = document.createElement('p');
-    copy.textContent = 'A melhor comida da cidade, feita com muito amor e carinho!';
+    const slogan = document.createElement('h3');
+    slogan.textContent = 'Simples, intimista e inesquecível';
+
+    const info = document.createElement('p');
+    info.textContent = 'Culinária Italiana autêntica no Rio de Janeiro. Trabalhamos apenas com produtos frescos preparados na hora.';
 
     content.appendChild(headline);
-    content.appendChild(copy);
+    content.appendChild(slogan);
+    content.appendChild(info);
 }
