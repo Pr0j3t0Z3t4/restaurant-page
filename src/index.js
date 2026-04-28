@@ -1,1 +1,4 @@
-console.log("teste webpack");
+import loadHome from './home.js';
+
+console.log("Teste Webpack");
+loadHome();
